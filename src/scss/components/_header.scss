@@ -1,0 +1,61 @@
+@import '../variables';
+
+.header {
+  border-bottom: 1px solid $gray-line;
+  padding: 40px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+
+    img {
+      margin-right: 15px;
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      color: #7b7b7b;
+    }
+  }
+  .search {
+    position: relative;
+    left: -10%;
+    &__input {
+      width: 250px;
+      height: 51px;
+      background-color: transparent;
+      padding: 0 20px;
+      transition: all .2s;
+      border: 1px solid rgb(0,0,0,.2);
+      
+      &:focus {
+        border-color: rgb(0,0,0,.5);
+      }
+    }
+    &__icon {
+      position: absolute;
+      cursor: pointer;
+      width: 32px;height: 32px;
+      right: 5px;
+      top: 50%;
+      margin-top: -16px;
+    }
+  }
+  &__cart {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
