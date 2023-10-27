@@ -1,17 +1,16 @@
 import React from "react";
 
 import { setSearchVal } from "../redux/slices/searchSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import debounce from "lodash.debounce";
 
 import icon from "../assets/img/searchLogo.png";
 
 export const Search = () => {
   const [value, setValue] = React.useState("");
-  const searchVal = useSelector((state) => state.search.searchVal);
   const dispatch = useDispatch();
   const updateSearchValue = React.useCallback(
-    debounce((str) => dispatch(setSearchVal(str)), 250),
+    () => debounce((str) => dispatch(setSearchVal(str)), 250),
     []
   );
 

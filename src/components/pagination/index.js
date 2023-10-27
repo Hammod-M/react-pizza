@@ -3,9 +3,6 @@ import ReactPaginate from "react-paginate";
 import styles from "./pagination.module.scss";
 
 export const Pagination = ({ onChangePage }) => {
-  const handlePageClick = (event) => {
-
-  };
   return (
     <ReactPaginate
       className={styles.pagination}
