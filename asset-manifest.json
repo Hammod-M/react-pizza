@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hammod-M/react-pizza/static/css/main.dd059d48.css",
-    "main.js": "/Hammod-M/react-pizza/static/js/main.921a6392.js",
+    "main.js": "/Hammod-M/react-pizza/static/js/main.dccd6adf.js",
     "static/media/empty-cart.png": "/Hammod-M/react-pizza/static/media/empty-cart.db905d1f4b063162f25b.png",
     "static/media/pizza-logo.svg": "/Hammod-M/react-pizza/static/media/pizza-logo.56ac87032d8f6fdf863326acd06c0d97.svg",
     "index.html": "/Hammod-M/react-pizza/index.html",
     "main.dd059d48.css.map": "/Hammod-M/react-pizza/static/css/main.dd059d48.css.map",
-    "main.921a6392.js.map": "/Hammod-M/react-pizza/static/js/main.921a6392.js.map"
+    "main.dccd6adf.js.map": "/Hammod-M/react-pizza/static/js/main.dccd6adf.js.map"
   },
   "entrypoints": [
     "static/css/main.dd059d48.css",
-    "static/js/main.921a6392.js"
+    "static/js/main.dccd6adf.js"
   ]
 }
