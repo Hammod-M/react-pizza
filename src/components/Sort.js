@@ -30,7 +30,6 @@ export const Sort = ({ sort }) => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      console.log(event, event.path);
       if (!event.composedPath().includes(sortRef.current)) {
         setSortPopupActive(false);
       }

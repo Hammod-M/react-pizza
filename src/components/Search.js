@@ -10,7 +10,7 @@ export const Search = () => {
   const [value, setValue] = React.useState("");
   const dispatch = useDispatch();
   const updateSearchValue = React.useCallback(
-    () => debounce((str) => dispatch(setSearchVal(str)), 250),
+    debounce((str) => dispatch(setSearchVal(str)), 250),
     []
   );
 
